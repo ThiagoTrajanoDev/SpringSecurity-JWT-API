@@ -3,18 +3,18 @@
 Esse tutorial tem como objetivo explicar como realizar uma configuração simples para  autenticação e autorização da sua API.
 
 
-#### A API utilizada
+### A API utilizada
 
 A API é simples e não entrarei em detalhes sobre a implementação dela aqui, é uma simples API de produtos, simulando um e-commerce, em que os produtos tem um código único, um nome, um preço e uma quantidade. A API disponibiliza de CRUD completo.
 
-#### O que será implementado
+### O que será implementado
 
 Utilizaremos o Spring Security para armazenar os dados do usuário em um banco de dados em memória, realizando uma encriptação da senha antes disso. 
 
 Os usuários com permissão de ADMIN poderão cadastrar, apagar  e atualizar os produtos, os usuários comuns poderão buscar os produtos, utilizando a API como readOnly
 
 
-#### Conceitos importantes
+### Conceitos importantes
 
 Para realizar a proteção dos nosso endPoints iremos utilizar o JWT. JWT é uma sigla para Json Web Token, esse é um padrão aberto que define uma forma segura de transmitir informação entre duas partes. 
 
@@ -27,12 +27,12 @@ O payload é a parte que contém o que chamamos de _Claims_, que são declaraç�
 
 E a assinatura é a união do header e do payload já codificados e um segredo, tudo isso criptografado com o algoritmo de criptografia descrito no header. 
 
-#### Como o uso do JWT irá funcionar?
+### Como o uso do JWT irá funcionar?
 
 Ao realizar login com sucesso, iremos retornar um JWT ao cliente em uma resposta HTTP 200. Sempre o usuário necessitar realizar alguma requisição HTTP, iremos receber o token ativo, extrair os login do usuário a partir dele e verificar se este possui as permissões necessárias e liberar ou não a requisição.
 
 
-#### Estrutura
+### Estrutura
 
 O guia será estruturado nos seguintes passos: 
 
