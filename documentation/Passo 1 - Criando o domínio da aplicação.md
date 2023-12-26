@@ -77,11 +77,10 @@ public enum UserRole {
 
 OBS: Já existe uma implementação de `User` que implementa `UserDetails` de forma nativa no Spring Security, porém é interessante criar nossa própria implementação para termos o controle da classe.
 
-Passo 2 ->
 
 --- 
 
 # Referências
 
-[UserDetails] (https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/core/userdetails/UserDetails.html) 
+[UserDetails](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/core/userdetails/UserDetails.html) 
 
