@@ -83,12 +83,11 @@ public class TokenService {
 }
 ```
 
-Passo 5 ->
 
 --- 
 
 # Referências
 
 
-[Estrutura JWT] (https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.1)
-[Classe JWT] (https://javadoc.io/doc/com.auth0/java-jwt/3.3.0/com/auth0/jwt/JWT.html)
+[Estrutura JWT](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.1)
+[Classe JWT](https://javadoc.io/doc/com.auth0/java-jwt/3.3.0/com/auth0/jwt/JWT.html)
