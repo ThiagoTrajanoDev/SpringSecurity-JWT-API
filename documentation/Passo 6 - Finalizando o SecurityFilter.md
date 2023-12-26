@@ -43,11 +43,9 @@ public class SecurityFilter extends OncePerRequestFilter {
 }
 ```
 
-Passo 7 ->
-
 
 --- 
 
 # Referências
 
-[SecurityContext] (https://www.javacodegeeks.com/2018/02/securitycontext-securitycontextholder-spring-security.html)
+[SecurityContext](https://www.javacodegeeks.com/2018/02/securitycontext-securitycontextholder-spring-security.html)
