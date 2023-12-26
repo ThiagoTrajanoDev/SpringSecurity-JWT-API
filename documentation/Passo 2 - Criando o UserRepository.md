@@ -23,10 +23,9 @@ public interface UserRepository  extends JpaRepository<User, Long> {
 }
 ```
 
-Passo 3 ->
 
 --- 
 
 # Referências
 
-[JpaRepository] (https://docs.spring.io/spring-data/jpa/docs/current/api/org/springframework/data/jpa/repository/JpaRepository.html)
+[JpaRepository](https://docs.spring.io/spring-data/jpa/docs/current/api/org/springframework/data/jpa/repository/JpaRepository.html)
